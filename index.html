@@ -1,0 +1,346 @@
+<title>Puzzle Reach Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #0A0814;
+    --surface: #1E1B2B;
+    --surface-raised: #272339;
+    --border: #332E47;
+    --border-strong: #463F5E;
+    --text-primary: #F4F2F9;
+    --text-secondary: #8B93A1;
+    --text-tertiary: #6B6480;
+    --accent: #F98311;
+    --accent-soft: rgba(249, 131, 17, 0.14);
+    --focus-ring: #FFA74A;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #F7F6FA;
+      --surface: #FFFFFF;
+      --surface-raised: #F0EEF5;
+      --border: #DEDAE8;
+      --border-strong: #C7C1D6;
+      --text-primary: #181422;
+      --text-secondary: #554F66;
+      --text-tertiary: #847C96;
+      --accent: #C96508;
+      --accent-soft: rgba(201, 101, 8, 0.10);
+      --focus-ring: #A4540A;
+    }
+  }
+
+  :root[data-theme="light"] {
+    --bg: #F7F6FA;
+    --surface: #FFFFFF;
+    --surface-raised: #F0EEF5;
+    --border: #DEDAE8;
+    --border-strong: #C7C1D6;
+    --text-primary: #181422;
+    --text-secondary: #554F66;
+    --text-tertiary: #847C96;
+    --accent: #C96508;
+    --accent-soft: rgba(201, 101, 8, 0.10);
+    --focus-ring: #A4540A;
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0A0814;
+    --surface: #1E1B2B;
+    --surface-raised: #272339;
+    --border: #332E47;
+    --border-strong: #463F5E;
+    --text-primary: #F4F2F9;
+    --text-secondary: #8B93A1;
+    --text-tertiary: #6B6480;
+    --accent: #F98311;
+    --accent-soft: rgba(249, 131, 17, 0.14);
+    --focus-ring: #FFA74A;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+
+  header.masthead {
+    margin-bottom: 40px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 22px;
+  }
+
+  .brand-mark {
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+    background: var(--accent-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+  }
+
+  .brand-mark svg { width: 16px; height: 16px; }
+
+  .brand-name {
+    font-family: "Outfit", ui-sans-serif, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+  }
+
+  h1 {
+    font-family: "Outfit", ui-sans-serif, sans-serif;
+    font-size: clamp(30px, 5vw, 40px);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin: 0 0 10px;
+  }
+
+  .updated {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 12.5px;
+    color: var(--text-tertiary);
+    letter-spacing: 0.01em;
+  }
+
+  nav.jump {
+    display: flex;
+    gap: 10px;
+    margin-top: 26px;
+  }
+
+  nav.jump a {
+    font-size: 13.5px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--text-secondary);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 8px 14px;
+    border-radius: 999px;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+
+  nav.jump a:hover { border-color: var(--accent); color: var(--text-primary); }
+
+  .doc-title {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin: 56px 0 24px;
+    scroll-margin-top: 24px;
+  }
+
+  .doc-title:first-of-type { margin-top: 0; }
+
+  .doc-title h2 {
+    font-family: "Outfit", ui-sans-serif, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .doc-title .doc-eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  section.clause {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin-bottom: 14px;
+  }
+
+  section.clause h3 {
+    font-family: "Outfit", ui-sans-serif, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 8px;
+  }
+
+  section.clause p {
+    margin: 0;
+    max-width: 68ch;
+    color: var(--text-secondary);
+    font-size: 15px;
+  }
+
+  section.clause p a { word-break: break-word; }
+
+  footer.contact {
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    color: var(--text-tertiary);
+    font-size: 13.5px;
+  }
+
+  footer.contact a { color: var(--accent); text-decoration: none; }
+  footer.contact a:hover { text-decoration: underline; }
+
+  ::selection { background: var(--accent-soft); }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 20L10 14L14 18L20 8" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14 8H20V14" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="brand-name">Puzzle Reach</span>
+    </div>
+    <h1>Privacy Policy &amp; Terms of Service</h1>
+    <div class="updated">LAST UPDATED &middot; 23 OCTOBER 2026</div>
+    <nav class="jump" aria-label="Jump to section">
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Service</a>
+    </nav>
+  </header>
+
+  <div class="doc-title" id="privacy">
+    <div>
+      <div class="doc-eyebrow">Document 01</div>
+      <h2>Privacy Policy</h2>
+    </div>
+  </div>
+
+  <section class="clause">
+    <h3>Overview</h3>
+    <p>Puzzle Reach has no account system and no login. There is no Puzzle Reach server that your data is sent to. Your gameplay progress &mdash; best floor reached, daily streak, and your settings choices (sound/music/vibration/reduced-motion) &mdash; is stored locally on your device using standard on-device storage, and stays there unless you uninstall the app or clear its data.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Google Firebase (Analytics, Crashlytics, Remote Config)</h3>
+    <p>Firebase Analytics collects anonymous, aggregated usage data (such as which game modes are played and in-app events like completing a floor) to help us understand how the app is used; we do not use this to identify you personally. Firebase Crashlytics collects crash and diagnostic reports if the app crashes, including device model, OS version, app version, and a small set of non-personal in-game context values attached to help us fix the problem. Firebase Remote Config downloads non-personal configuration values that let us tune the app without requiring an update. See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google's own Firebase privacy documentation</a> for detail.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Advertising (Google AdMob) and consent (UMP)</h3>
+    <p>Puzzle Reach shows banner, interstitial, and rewarded video ads via Google's AdMob service. AdMob and its advertising partners may collect your device's advertising ID, IP address/general location, ad interaction data, and device/diagnostic information for fraud prevention, in accordance with <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's own privacy policy</a>. Before any ad is requested, Google's User Messaging Platform (UMP) consent flow determines what disclosures and choices apply to you based on your region &mdash; for example, EEA/UK/Switzerland players see a consent form before any personalised advertising occurs. You can review or change your consent choices from the app's Settings &gt; Privacy &amp; Consent at any time. See Google's own <a href="https://support.google.com/admob/answer/9012903" target="_blank" rel="noopener">AdMob data collection disclosure</a> for detail. Puzzle Reach does not receive or store this data itself &mdash; it is collected and processed directly by Google as the advertising provider.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Information we don't collect</h3>
+    <p>Puzzle Reach does not require or collect your name, email address, or any account credentials, as there is no account system. We do not sell your personal information, and we do not access your contacts, photos, camera, microphone, or precise location.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Data retention and deletion</h3>
+    <p>Since Puzzle Reach has no account system, there is no personal account data for us to retain or for you to request deletion of. Your local gameplay progress is stored only on your own device and is removed when you uninstall the app or clear its data in your device settings. Aggregated analytics and crash data retained by Firebase follows Google's own retention policies.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Children's privacy</h3>
+    <p>Puzzle Reach's declared target audience is 13 and older. We do not knowingly direct the app at, or collect information from, children under 13.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Your rights and choices</h3>
+    <p>Since all of your Puzzle Reach data lives on your device, you have direct control over it at all times: uninstall the app to remove all locally stored data, or clear its data in your device's app settings. Your device's advertising ID can be reset or limited in your device's own settings, and ad personalisation choices can be reviewed at any time from the app's own Settings &gt; Privacy &amp; Consent, or at <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>. If you believe an Australian Privacy Principle has been breached and the Privacy Act 1988 (Cth) applies, you may lodge a complaint with the <a href="https://www.oaic.gov.au" target="_blank" rel="noopener">Office of the Australian Information Commissioner (OAIC)</a>.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Changes to this policy</h3>
+    <p>We may update this Privacy Policy from time to time, for example if we add a new feature or third-party service. We will update the "Last updated" date above when we do. Continued use of the app after a change means you accept the updated policy.</p>
+  </section>
+
+  <div class="doc-title" id="terms">
+    <div>
+      <div class="doc-eyebrow">Document 02</div>
+      <h2>Terms of Service</h2>
+    </div>
+  </div>
+
+  <section class="clause">
+    <h3>Acceptance</h3>
+    <p>By downloading, installing, or playing Puzzle Reach, you agree to these Terms. If you don't agree, please don't use the app.</p>
+  </section>
+
+  <section class="clause">
+    <h3>License to use the app</h3>
+    <p>We grant you a personal, non-exclusive, non-transferable, revocable license to download and use Puzzle Reach on a device you own or control, for your own personal, non-commercial entertainment, subject to these Terms and to the terms of the app store (Google Play) you downloaded it from.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Acceptable use</h3>
+    <p>Don't copy, modify, reverse-engineer, or create derivative works of the app except where applicable law permits it; don't use the app for any unlawful purpose; don't attempt to interfere with, disable, or exploit its ad delivery, Remote Config, or other backend services; and don't redistribute, sell, rent, or sublicense the app.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Ads and in-app purchases</h3>
+    <p>Puzzle Reach is supported by advertising delivered through Google AdMob, including rewarded video ads you may optionally choose to watch (for example, to continue a run). Any in-app purchases, if and when offered, will be processed by Google Play and are subject to Google Play's own terms and refund policies &mdash; we do not process payments ourselves.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Your content</h3>
+    <p>The app does not allow you to upload, post, or share content with other players, and has no user-generated content or chat features.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Intellectual property</h3>
+    <p>Puzzle Reach, including its design, artwork, code, and branding, is owned by ZeekTech and protected by applicable intellectual property laws. These Terms do not transfer any ownership rights to you.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Disclaimer of warranties</h3>
+    <p>The app is provided "as is" and "as available," without warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not guarantee the app will be uninterrupted, error-free, or available at all times.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Limitation of liability</h3>
+    <p>To the maximum extent permitted by law, ZeekTech is not liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the app. Nothing in these terms excludes, restricts, or modifies any consumer guarantee, right, or remedy that cannot lawfully be excluded under the Australian Consumer Law or any other applicable law.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Termination</h3>
+    <p>We may suspend or discontinue the app, or your ability to use it, at any time, including if you violate these Terms. You may stop using the app at any time by uninstalling it.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Changes to these terms</h3>
+    <p>We may update these Terms from time to time, for example to reflect changes to the app or applicable law. Continuing to use Puzzle Reach after an update means you accept the revised Terms.</p>
+  </section>
+
+  <section class="clause">
+    <h3>Governing law</h3>
+    <p>These Terms are governed by the laws of Australia, without regard to conflict-of-law principles, except where applicable local consumer protection law requires otherwise.</p>
+  </section>
+
+  <footer class="contact">
+    Questions? Contact <a href="mailto:zeektechau@gmail.com">zeektechau@gmail.com</a>
+  </footer>
+</div>
